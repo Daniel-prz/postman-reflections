@@ -38,7 +38,26 @@ Location: New York, 11208
 Date: 2024-02-06
 Parameters: 2m(meters), F(degrees fahrenheit)
 
-Response (Zulu Time, Temperature Fahrenheit):   
+Response (Zulu Time, Temperature Fahrenheit):  
 T15:00:00Z, 34.5 F  
 T17:00:00Z, 38.8 F  
-T19:00:00Z, 40.9 F  
+T19:00:00Z, 40.9 F
+
+# Day 3
+
+# API Collections
+
+![Weather API Request](<Screenshot 2024-02-07 214313.png>)
+
+Weather API Collection made   
+
+Added weatherAPIkey variable  
+
+Made weatherAPIkey variable value into my WeatherAPI Key  
+
+Made request using Weather API Collection as active environment  
+
+Used weatherAPIKey variable to call Weather API Key
+
+weatherAPIKey variable allowed easy access to API 
+key, as long as request was made in proper active environment with API key as variable
