@@ -49,15 +49,44 @@ T19:00:00Z, 40.9 F
 
 ![Weather API Request](<Screenshot 2024-02-07 214313.png>)
 
-Weather API Collection made   
+Weather API Collection made
 
-Added weatherAPIkey variable  
+Added weatherAPIkey variable
 
-Made weatherAPIkey variable value into my WeatherAPI Key  
+Made weatherAPIkey variable value into my WeatherAPI Key
 
-Made request using Weather API Collection as active environment  
+Made request using Weather API Collection as active environment
 
 Used weatherAPIKey variable to call Weather API Key
 
-weatherAPIKey variable allowed easy access to API 
+weatherAPIKey variable allowed easy access to API
 key, as long as request was made in proper active environment with API key as variable
+
+# Day 4
+
+# GitHub API Interaction
+
+![User information accessed with GET request](<Screenshot 2024-02-08 214751.png>)
+
+GitHub API Environment created and saved  
+patGitHub variable created inside environment  
+patGitHub value set to generated classic personal access token  
+GitHub API set as active environment  
+GitHub Post request Collection created and saved  
+baseURL variable created inside and saved  
+baseURL value set to github api url  
+GitHub Post Request Authorization set to Bearer Token  
+Token set to patGitHub  
+Made New Get Request  
+({baseURL})user
+Request sent
+Response received as user information
+
+![Repository created with POST request](<Screenshot 2024-02-08 215555.png>)
+
+Set request to POST  
+({baseURL})user/repos  
+create repo with name as JSON object in body tab  
+Send POST request  
+201 Message code signifies request successfully fulfilled  
+Checked GitHub to see created repository
