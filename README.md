@@ -90,3 +90,26 @@ create repo with name as JSON object in body tab
 Send POST request  
 201 Message code signifies request successfully fulfilled  
 Checked GitHub to see created repository
+
+
+# Day 5
+# Thunder Client
+
+Installed Thunder Client in VS Code extensions  
+
+![THunder Client GitHub User Info](<Screenshot 2024-02-09 221356.png>)
+
+Created GItHub API environment  
+created patGitHub token variable with GitHub personal access token as value  
+Created GitHub Collection with GitHub API as environment  
+Set Collection Authorization to Bearer Token patGitHub  
+Sent user request  
+Received user info response  
+
+![Thunder Client GitHub Repo Created](<Screenshot 2024-02-09 221710.png>)
+
+Turned request type to POST  
+Wrote out repo name as JSON object in body tab of request  
+Sent repo creation request  
+Received 201 Message Code  
+Repo successfully created  
